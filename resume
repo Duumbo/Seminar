@@ -1,0 +1,13 @@
+Le Monte-Carlo Variationnel (VMC) est une méthode numérique visant à déterminer
+l'énergie de l'état fondamental d'un Hamiltonien. Cette technique repose sur
+un échantillonage Monte-Carlo de la valeur moyenne de l'énergie sur une
+fonction d'onde variationnelle, effectué par chaine de Markov. La minimisation
+de la fonctionnelle d'énergie est effectuée par l'évolution en temps imaginaire
+de la fonction d'onde. Ce problème est difficile numériquement par la complexité
+asymptotique du nombre de paramètres à optimiser. Basé sur le travail fait par
+les créateurs de mVMC, ce projet cherche à optimiser l'approche numérique, dans
+le but d'obtenir une approximation grossière de l'état fondamental à très haut
+nombre de sites dans le modèle de Hubbard. Quelques optimisations effectuées
+dans ce but seront présentées, ainsi qu'une comparaison avec le programme existant.
+De plus, on tentera de justifier physiquement la fonction d'onde variationnelle
+utilisée.

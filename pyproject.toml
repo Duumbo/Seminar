@@ -1,0 +1,25 @@
+[project]
+name = "presentationmaitrise"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Dimitri Bonanni-Surprenant",email = "dimitri.bonanni-surprenant@usherbrooke.ca"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy (>=2.3.3,<3.0.0)",
+    "matplotlib (>=3.10.6,<4.0.0)",
+    "manim (>=0.19.0,<0.20.0)",
+    "manim-slides (>=5.5.2,<6.0.0)",
+    "ipython (>=9.6.0,<10.0.0)",
+    "pyqt6 (>=6.9.1,<7.0.0)",
+    "manimgl (>=1.7.2,<2.0.0)",
+    "setuptools (>=80.9.0,<81.0.0)",
+    "scipy (>=1.16.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
