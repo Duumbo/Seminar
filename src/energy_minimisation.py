@@ -521,8 +521,8 @@ class ConjGradient(ThreeDScene):
                 )
         self.wait()
         self.play(
-                Create(self.gradients[0]),
-                Create(self.red_dir[1]),
+                #Create(self.gradients[0]),
+                #Create(self.red_dir[1]),
                 Create(new_grad),
         )
         self.wait()
@@ -536,9 +536,9 @@ class ConjGradient(ThreeDScene):
         #self.wait()
         final_grad = Arrow3D(start=self.coords[1], end=self.coords[2])
         self.play(
-                Create(self.red_dir[2]),
+                #Create(self.red_dir[2]),
                 Create(final_grad),
-                Create(self.cgs[1]),
+                #Create(self.cgs[1]),
         )
         self.wait()
         #ani_grad = ApplyMatrix(self.M, self.grad)

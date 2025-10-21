@@ -364,7 +364,7 @@ class Gutzwiller(ThreeDSlide):
         )
 
 
-class Jastrow(ThreeDScene):
+class Jastrow(ThreeDSlide):
     def setup(self):
         self.proj = MathTex(r"\mathcal{P}_J=e^{\sum_{i\neq j} v_{ij}(n_{i\uparrow} + n_{i\downarrow} - 1)(n_{j\uparrow} + n_{j\downarrow} - 1)").set_opacity(0)
         self.add_fixed_in_frame_mobjects(self.proj)
@@ -454,6 +454,7 @@ class Jastrow(ThreeDScene):
         self.play(
                 Write(self.proj)
         )
+        self.next_slide()
         self.wait()
         self.play(
                 self.proj.animate.to_edge(UP)
@@ -463,9 +464,11 @@ class Jastrow(ThreeDScene):
                 Create(self.subscene)
         )
         self.wait()
+        self.next_slide()
         self.play(
                 Create(self.selection)
         )
+        self.next_slide()
         #self.play(
         #        self.subscene.animate.scale(0.5).to_edge(LEFT),
         #)

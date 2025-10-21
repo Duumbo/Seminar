@@ -1,0 +1,57 @@
+{
+  "slides": [
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "file": "slides/files/Projecteurs/7acb5f751a69dd4bd4a3c16a0bb1b73c08ad30cd16e295fc048ad7414b1cd63f.mp4",
+      "rev_file": "slides/files/Projecteurs/7acb5f751a69dd4bd4a3c16a0bb1b73c08ad30cd16e295fc048ad7414b1cd63f_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "file": "slides/files/Projecteurs/f2ec208cc6c797880b56b78e5d9a7663e1e57b9cfbc32616f735f94857e451cc.mp4",
+      "rev_file": "slides/files/Projecteurs/f2ec208cc6c797880b56b78e5d9a7663e1e57b9cfbc32616f735f94857e451cc_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "file": "slides/files/Projecteurs/889855e44550b3ad9c91fea2b29ee17b1571dd522434a3302296ba75ed57f2e0.mp4",
+      "rev_file": "slides/files/Projecteurs/889855e44550b3ad9c91fea2b29ee17b1571dd522434a3302296ba75ed57f2e0_reversed.mp4"
+    },
+    {
+      "loop": false,
+      "auto_next": false,
+      "playback_rate": 1.0,
+      "reversed_playback_rate": 1.0,
+      "notes": "",
+      "dedent_notes": true,
+      "skip_animations": false,
+      "src": null,
+      "file": "slides/files/Projecteurs/c410b7d8099ebbd0bfe52bb5b879bca53496f30f7dde8aa07bbde799972ba788.mp4",
+      "rev_file": "slides/files/Projecteurs/c410b7d8099ebbd0bfe52bb5b879bca53496f30f7dde8aa07bbde799972ba788_reversed.mp4"
+    }
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "background_color": "black"
+}

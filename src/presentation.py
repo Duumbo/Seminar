@@ -2,16 +2,22 @@ from manim import *
 from manim_slides import *
 
 import scene1
-from energy_minimisation import VarMethod
-from ansatz import PfaffianIntro, PfaffianAnsatz, Gutzwiller
+from energy_minimisation import VarMethod, EnergyMinimisation, ConjGradient
+from ansatz import PfaffianIntro, PfaffianAnsatz, Gutzwiller, Jastrow
+from encodage import Projecteurs
 
 class Presentation(ThreeDSlide):
+    skip_reversing = True
     def construct(self):
         all_slides = [
                 VarMethod,
+                EnergyMinimisation,
+                ConjGradient,
                 PfaffianAnsatz,
                 PfaffianIntro,
                 Gutzwiller,
+                Jastrow,
+                Projecteurs,
         ]
 
         for slides in all_slides:
